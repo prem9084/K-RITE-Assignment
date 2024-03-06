@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.login-container {
+  font-family: " Cursive", cursive;
+  font-family: "Poppins", sans-serif;
+  margin-top: 7rem !important;
+}
+
+.input-bg {
+  background-color: #f3f3f3;
+  color: #dbd5d5;
+  font-size: 0.9rem;
+  height: 2.9rem;
+}
+
+.custom-btn {
+  padding: 0.6rem;
+  border-radius: 4px;
+}
+
+.custom-btn-blue {
+  border: 1px solid #b3e0ff;
+  background-color: #b3e0ff;
+  color: white;
+  padding: 14px;
+}
+
+.custom-btn-white {
+  border: 1px solid #fafdfe;
+  background-color: #fafdfe;
+  color: black;
+  padding: 14px;
+}
+
+.socialDesktop {
+  display: block;
+}
+
+.socialMobile {
+  display: none;
+}
+
+@media only screen and (max-width: 450px) {
+  .socialDesktop {
+    display: none;
+  }
+
+  .socialMobile {
+    display: block;
+  }
+
+  .login-container {
+    margin-top: 2.5rem;
+  }
+
+  .card {
+    border: none !important;
+  }
+
+  .shadow {
+    box-shadow: none !important;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .socialDesktop {
+    width: 110%;
+  }
+
+  .login-container {
+    margin-top: 45%;
+  }
+}
